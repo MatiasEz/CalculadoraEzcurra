@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D2BBDA1CFD106900DE2978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2BBD91CFD106900DE2978 /* main.m */; };
+		F7D2BBDD1CFD106900DE2978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2BBDC1CFD106900DE2978 /* AppDelegate.m */; };
+		F7D2BBE01CFD106900DE2978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2BBDF1CFD106900DE2978 /* ViewController.m */; };
+		F7D2BBE31CFD106900DE2978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D2BBE11CFD106900DE2978 /* Main.storyboard */; };
+		F7D2BBE51CFD106900DE2978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D2BBE41CFD106900DE2978 /* Assets.xcassets */; };
+		F7D2BBE81CFD106900DE2978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D2BBE61CFD106900DE2978 /* LaunchScreen.storyboard */; };
+		F7D2BBF31CFD106900DE2978 /* EzcurraCalculadoraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2BBF21CFD106900DE2978 /* EzcurraCalculadoraTests.m */; };
+		F7D2BBFE1CFD106900DE2978 /* EzcurraCalculadoraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D2BBFD1CFD106900DE2978 /* EzcurraCalculadoraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D2BBEF1CFD106900DE2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D2BBCD1CFD106900DE2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D2BBD41CFD106900DE2978;
+			remoteInfo = EzcurraCalculadora;
+		};
+		F7D2BBFA1CFD106900DE2978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D2BBCD1CFD106900DE2978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D2BBD41CFD106900DE2978;
+			remoteInfo = EzcurraCalculadora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7D2BBD51CFD106900DE2978 /* EzcurraCalculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzcurraCalculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D2BBD91CFD106900DE2978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7D2BBDB1CFD106900DE2978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7D2BBDC1CFD106900DE2978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7D2BBDE1CFD106900DE2978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7D2BBDF1CFD106900DE2978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7D2BBE21CFD106900DE2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D2BBE41CFD106900DE2978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D2BBE71CFD106900DE2978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D2BBE91CFD106900DE2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D2BBEE1CFD106900DE2978 /* EzcurraCalculadoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzcurraCalculadoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D2BBF21CFD106900DE2978 /* EzcurraCalculadoraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzcurraCalculadoraTests.m; sourceTree = "<group>"; };
+		F7D2BBF41CFD106900DE2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D2BBF91CFD106900DE2978 /* EzcurraCalculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzcurraCalculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D2BBFD1CFD106900DE2978 /* EzcurraCalculadoraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzcurraCalculadoraUITests.m; sourceTree = "<group>"; };
+		F7D2BBFF1CFD106900DE2978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D2BBD21CFD106900DE2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBEB1CFD106900DE2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBF61CFD106900DE2978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D2BBCC1CFD106900DE2978 = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBD71CFD106900DE2978 /* EzcurraCalculadora */,
+				F7D2BBF11CFD106900DE2978 /* EzcurraCalculadoraTests */,
+				F7D2BBFC1CFD106900DE2978 /* EzcurraCalculadoraUITests */,
+				F7D2BBD61CFD106900DE2978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D2BBD61CFD106900DE2978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBD51CFD106900DE2978 /* EzcurraCalculadora.app */,
+				F7D2BBEE1CFD106900DE2978 /* EzcurraCalculadoraTests.xctest */,
+				F7D2BBF91CFD106900DE2978 /* EzcurraCalculadoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D2BBD71CFD106900DE2978 /* EzcurraCalculadora */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBDB1CFD106900DE2978 /* AppDelegate.h */,
+				F7D2BBDC1CFD106900DE2978 /* AppDelegate.m */,
+				F7D2BBDE1CFD106900DE2978 /* ViewController.h */,
+				F7D2BBDF1CFD106900DE2978 /* ViewController.m */,
+				F7D2BBE11CFD106900DE2978 /* Main.storyboard */,
+				F7D2BBE41CFD106900DE2978 /* Assets.xcassets */,
+				F7D2BBE61CFD106900DE2978 /* LaunchScreen.storyboard */,
+				F7D2BBE91CFD106900DE2978 /* Info.plist */,
+				F7D2BBD81CFD106900DE2978 /* Supporting Files */,
+			);
+			path = EzcurraCalculadora;
+			sourceTree = "<group>";
+		};
+		F7D2BBD81CFD106900DE2978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBD91CFD106900DE2978 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7D2BBF11CFD106900DE2978 /* EzcurraCalculadoraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBF21CFD106900DE2978 /* EzcurraCalculadoraTests.m */,
+				F7D2BBF41CFD106900DE2978 /* Info.plist */,
+			);
+			path = EzcurraCalculadoraTests;
+			sourceTree = "<group>";
+		};
+		F7D2BBFC1CFD106900DE2978 /* EzcurraCalculadoraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2BBFD1CFD106900DE2978 /* EzcurraCalculadoraUITests.m */,
+				F7D2BBFF1CFD106900DE2978 /* Info.plist */,
+			);
+			path = EzcurraCalculadoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D2BBD41CFD106900DE2978 /* EzcurraCalculadora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D2BC021CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadora" */;
+			buildPhases = (
+				F7D2BBD11CFD106900DE2978 /* Sources */,
+				F7D2BBD21CFD106900DE2978 /* Frameworks */,
+				F7D2BBD31CFD106900DE2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzcurraCalculadora;
+			productName = EzcurraCalculadora;
+			productReference = F7D2BBD51CFD106900DE2978 /* EzcurraCalculadora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D2BBED1CFD106900DE2978 /* EzcurraCalculadoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D2BC051CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadoraTests" */;
+			buildPhases = (
+				F7D2BBEA1CFD106900DE2978 /* Sources */,
+				F7D2BBEB1CFD106900DE2978 /* Frameworks */,
+				F7D2BBEC1CFD106900DE2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D2BBF01CFD106900DE2978 /* PBXTargetDependency */,
+			);
+			name = EzcurraCalculadoraTests;
+			productName = EzcurraCalculadoraTests;
+			productReference = F7D2BBEE1CFD106900DE2978 /* EzcurraCalculadoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D2BBF81CFD106900DE2978 /* EzcurraCalculadoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D2BC081CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadoraUITests" */;
+			buildPhases = (
+				F7D2BBF51CFD106900DE2978 /* Sources */,
+				F7D2BBF61CFD106900DE2978 /* Frameworks */,
+				F7D2BBF71CFD106900DE2978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D2BBFB1CFD106900DE2978 /* PBXTargetDependency */,
+			);
+			name = EzcurraCalculadoraUITests;
+			productName = EzcurraCalculadoraUITests;
+			productReference = F7D2BBF91CFD106900DE2978 /* EzcurraCalculadoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D2BBCD1CFD106900DE2978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ezcurra Company";
+				TargetAttributes = {
+					F7D2BBD41CFD106900DE2978 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F7D2BBED1CFD106900DE2978 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F7D2BBD41CFD106900DE2978;
+					};
+					F7D2BBF81CFD106900DE2978 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F7D2BBD41CFD106900DE2978;
+					};
+				};
+			};
+			buildConfigurationList = F7D2BBD01CFD106900DE2978 /* Build configuration list for PBXProject "EzcurraCalculadora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D2BBCC1CFD106900DE2978;
+			productRefGroup = F7D2BBD61CFD106900DE2978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D2BBD41CFD106900DE2978 /* EzcurraCalculadora */,
+				F7D2BBED1CFD106900DE2978 /* EzcurraCalculadoraTests */,
+				F7D2BBF81CFD106900DE2978 /* EzcurraCalculadoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D2BBD31CFD106900DE2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D2BBE81CFD106900DE2978 /* LaunchScreen.storyboard in Resources */,
+				F7D2BBE51CFD106900DE2978 /* Assets.xcassets in Resources */,
+				F7D2BBE31CFD106900DE2978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBEC1CFD106900DE2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBF71CFD106900DE2978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D2BBD11CFD106900DE2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D2BBE01CFD106900DE2978 /* ViewController.m in Sources */,
+				F7D2BBDD1CFD106900DE2978 /* AppDelegate.m in Sources */,
+				F7D2BBDA1CFD106900DE2978 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBEA1CFD106900DE2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D2BBF31CFD106900DE2978 /* EzcurraCalculadoraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D2BBF51CFD106900DE2978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D2BBFE1CFD106900DE2978 /* EzcurraCalculadoraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D2BBF01CFD106900DE2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D2BBD41CFD106900DE2978 /* EzcurraCalculadora */;
+			targetProxy = F7D2BBEF1CFD106900DE2978 /* PBXContainerItemProxy */;
+		};
+		F7D2BBFB1CFD106900DE2978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D2BBD41CFD106900DE2978 /* EzcurraCalculadora */;
+			targetProxy = F7D2BBFA1CFD106900DE2978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D2BBE11CFD106900DE2978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D2BBE21CFD106900DE2978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D2BBE61CFD106900DE2978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D2BBE71CFD106900DE2978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D2BC001CFD106A00DE2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D2BC011CFD106A00DE2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D2BC031CFD106A00DE2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzcurraCalculadora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7D2BC041CFD106A00DE2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EzcurraCalculadora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7D2BC061CFD106A00DE2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzcurraCalculadoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzcurraCalculadora.app/EzcurraCalculadora";
+			};
+			name = Debug;
+		};
+		F7D2BC071CFD106A00DE2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EzcurraCalculadoraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzcurraCalculadora.app/EzcurraCalculadora";
+			};
+			name = Release;
+		};
+		F7D2BC091CFD106A00DE2978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzcurraCalculadoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzcurraCalculadora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7D2BC0A1CFD106A00DE2978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EzcurraCalculadoraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezcurraco.EzcurraCalculadoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EzcurraCalculadora;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D2BBD01CFD106900DE2978 /* Build configuration list for PBXProject "EzcurraCalculadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D2BC001CFD106A00DE2978 /* Debug */,
+				F7D2BC011CFD106A00DE2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D2BC021CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D2BC031CFD106A00DE2978 /* Debug */,
+				F7D2BC041CFD106A00DE2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7D2BC051CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D2BC061CFD106A00DE2978 /* Debug */,
+				F7D2BC071CFD106A00DE2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7D2BC081CFD106A00DE2978 /* Build configuration list for PBXNativeTarget "EzcurraCalculadoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D2BC091CFD106A00DE2978 /* Debug */,
+				F7D2BC0A1CFD106A00DE2978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D2BBCD1CFD106900DE2978 /* Project object */;
+}
